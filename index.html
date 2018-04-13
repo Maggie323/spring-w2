@@ -3,15 +3,73 @@
 	<head>
 		<title>W2 Class</title>
 		<meta charset="utf-8">
+		
+<!-- facebook tags -->
+  <meta property="og:title" content="Dogfoot Dumpling">
+  <meta property="og:description" content="Quality images of dogs wearing shoes.">
+  <meta property="og:image" content="https://i.ytimg.com/vi/0wgykFpdgmY/maxresdefault.jpg">
+  <meta property="og:url" content="https://cherimarie.github.io/test-soc-med/">
+  <meta property="og:type" content="website">
+		
+
+<!-- twitter tags -->
+  <meta name="twitter:title" content="Puppy Image">
+  <meta name="twitter:description" content="See this cool Puppy">
+  <meta name="twitter:image" content="https://maggie323.github.io/spring-w2/beagle-puppy.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+		
+		<link rel="stylesheet" type="text/css" href="styles/stylessheet.css">
+		
+<!--		JS https://developers.facebook.com/docs/plugins/share-button-->
+		<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));
+		</script>
+		
 	</head>
 
 	<body>
-		<h1>W2 Class</h1>
+<!--		FB link-->
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		
-		<p>Check out this Puppy Image</p>
+		<h1>W2 Class</h1>
+		<p> Puppies!</p>
+		<a href="media/beagle-puppy.jpg">Puppy Image</a>
 		<img src="media/beagle-puppy.jpg" alt="Puppy Image"> 
 		
 		<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini</p>
+		
+		<footer>
+		<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Check%20me%20out%20https%3A%2F%2Fmaggie323.github.io%2Fspring-w2%2F
+"> Tweet
+		</a>
+			
+			
+<!--			FB-->
+<div class="fb-share-button" data-href="https://maggie323.github.io/spring-w2/" data-layout="button" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmaggie323.github.io%2Fspring-w2%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+
+		</footer>
 	
 	</body>
 
